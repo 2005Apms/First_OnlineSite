@@ -11,7 +11,8 @@
 } /* Com isto acima, ressetamos estas propriedades */
 body {
   background-image: url(/IMG/rm251-mind-01.jpg); /* Cor de fundo */
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:auto;
   font-family: 'Finlandica', sans-serif; /* Definimos o tipo de fonte */
   color: white;
 }
