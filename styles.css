@@ -10,7 +10,7 @@
   border: 0; /* Zeramos o border */
 } /* Com isto acima, ressetamos estas propriedades */
 body {
-  background-image: url(https://img.freepik.com/vetores-gratis/borda-abstrata-de-neon-em-um-fundo-roxo-escuro_53876-99055.jpg?w=1380&t=st=1657069445~exp=1657070045~hmac=7d89f2d28c80ec47eac197dba3194c549d2856a2ff905f3e37614ad900ac6661); /* Cor de fundo */
+  background-image: url(/IMG/rm251-mind-01.jpg); /* Cor de fundo */
   background-size: cover;
   font-family: 'Finlandica', sans-serif; /* Definimos o tipo de fonte */
   color: white;
