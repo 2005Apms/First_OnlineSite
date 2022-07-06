@@ -12,7 +12,7 @@
 body {
   background-image: url(/IMG/rm251-mind-01.jpg); /* Cor de fundo */
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size:cover;
   font-family: 'Finlandica', sans-serif; /* Definimos o tipo de fonte */
   color: white;
 }
@@ -38,7 +38,7 @@ header {
   text-decoration: none; /* Eliminamos o sublinhado da tag a (link) */
 }
 .links a:hover { /* Quando mover o mouse */
-  color: var(--color-green); /* Definimos uma cor verde para o menu quando movemos 
+  color: #d400ff; /* Definimos uma cor verde para o menu quando movemos 
                        o mouse sobre ele */
   transition: color 200ms; /* Tempo da transição para a mudança de cor */
 }                                                       
@@ -51,6 +51,7 @@ header {
   border: 5px solid var(--color-green); /* Arredonda a imagem da div */
   margin-bottom: 32px; /* Espaçamento inferior da Margem da imagem da div */
   height: 300px; /* Altura da imagem */
+  transition: all 0.2s linear;
 }
 #wrapper h1 {
   font-size: 42px; /* Tamanho da fonte */
@@ -58,6 +59,7 @@ header {
                      /* uma quantidade de 10 pixels a mais daquela */
                      /* atribuída ao tamanho da fonte.*/
   font-weight: bold; /* Peso da fonte */
+  color: white;
 }
 #wrapper h2 {
   font-size: 24px;
@@ -65,6 +67,7 @@ header {
   font-weight: normal;
   margin-top: 8px; /* Deixo uma separação entre o h1 e o h2*/
   opacity: 0.8; /* Deixa a cor do texto um pouco mais leve */
+  color: white;
 }
 #wrapper p {
   max-width: 500px; /* Define o tamanho máximo da linha, fazendo a quebra caso ultrapasse */
@@ -72,13 +75,32 @@ header {
                      /* laterais automáticas (centraliza - auto)  */
   font-size: 24px; 
   line-height: 34px;
+  color: white;
 }
 #wrapper p a { /* Alterar a cor do link */
-  color: var(--color-green);
+  color: white;
 }
 #links-footer a {
   border-bottom: 1px solid var(--color-green); /* Coloca o underline nos links */
                                                /* GitHub e Linkedin ao não colocar */
                                                /* o text-decoration: none, como foi*/
-                                               /* colocado no seletor ".links a" */          
+                                               /* colocado no seletor ".links a" */   
+}
+
+#red{
+  color: #d400ff;
+}
+
+#SobreTXT p{
+  max-width: 500px;
+  margin: 32px auto;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+#wrapper img:hover{
+  -webkit-transform: scale(1.05);
+  transform: scale(1.15);
 }
