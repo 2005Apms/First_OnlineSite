@@ -15,6 +15,8 @@ body {
   background-size:cover;
   font-family: 'Finlandica', sans-serif; /* Definimos o tipo de fonte */
   color: white;
+  margin: 0px ;
+  padding: 0px;
 }
 header {
   padding: 32px; /* Superfície ligada diretamente ao conteúdo 
