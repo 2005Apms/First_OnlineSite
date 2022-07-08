@@ -91,7 +91,7 @@ header {
 }
 
 #red{
-  color: #d400ff;
+  color: rgb(0, 255, 0);
 }
 
 #SobreTXT p{
@@ -158,5 +158,5 @@ footer {
 
 #Card__price:hover{
   -webkit-transform: scale(1.05);
-  transform: scale(1.10);
+  transform: scale(1);
 }
