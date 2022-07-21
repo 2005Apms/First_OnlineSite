@@ -11,7 +11,7 @@
   border: 0; /* Zeramos o border */
 } /* Com isto acima, ressetamos estas propriedades */
 body {
-  background-image: url(/First_OnlineSite-main/IMG/4394259_91657.jpg); /* Cor de fundo */
+  background-image: url(/IMG/4394259_91657.jpg); /* Cor de fundo */
   background-repeat:no-repeat;
   background-position:top;
   font-family: 'Trispace', sans-serif; /* Definimos o tipo de fonte */
